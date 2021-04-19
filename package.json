@@ -1,0 +1,17 @@
+{
+  "name": "infotravelapimongo",
+  "version": "1.0.0",
+  "description": "It is a database that will export the information stored throught an API, it will be used by the mobile application infotravel",
+  "main": "App.js",
+  "scripts": {
+    "start": "node ./src/bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonel Espinoza | leonelantonio569@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "apicache": "^1.6.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.6"
+  }
+}
